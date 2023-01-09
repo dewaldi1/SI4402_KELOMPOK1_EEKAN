@@ -38,7 +38,7 @@
 							<li><a class="dropdown-item @yield('login')" href="/logout">Logout</a></li>
 						</ul>
 					</div>
-						<li><a class="nav-link" href="/cart"><img src="{{ url('/images/cart.svg') }}"></a></li>
+						<li><a class="nav-link" href="#cart"><img src="{{ url('/images/cart.svg') }}"></a></li>
 					</ul>
 					@endauth
 				</div>
